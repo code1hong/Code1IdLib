@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Code1IdLib'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Code1System IdCard Module.'
 
 # This description is used to generate tags and improve search results.
@@ -40,6 +40,7 @@ TODO: Add long description of the pod here.
   s.dependency 'Alamofire', '~> 5.0.0-rc.3'
   s.dependency 'SwiftyJSON', '~> 4.0'
   s.dependency 'CryptoSwift', '~> 1.3.8'
+  s.dependency 'MLKit'
 
   s.resources = ["Code1IdLib/res/button.png", "Code1IdLib/res/camera_button.png", "Code1IdLib/res/title.png", "Code1IdLib/res/Code1License.lic", "Code1IdLib/res/Main.storyboard"]
   
